@@ -6,7 +6,7 @@ set(CMAKE_CXX_COMPILER "g++-13")
 
 find_package(OpenMP REQUIRED)
 
-set(executables d1 d2)
+set(executables d1 d2 d3)
 
 foreach(executable ${executables})
     add_executable(${executable} "${executable}/main.cxx")
